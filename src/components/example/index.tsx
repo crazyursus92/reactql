@@ -43,7 +43,7 @@ class Index extends React.PureComponent<{}, IIndexState> {
     return (
       <>
         {/* Note: The <h1> style will have a yellow background due to @/global/styles.ts! */}
-        <h1>Hi from ReactQL</h1>
+        <h1>Hi from ReactQL on branch "test-multi-branchs-netlify"</h1>
         <DynamicComponent />
         <Count />
         <HackerNews />
